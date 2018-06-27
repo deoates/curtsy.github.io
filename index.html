@@ -140,10 +140,14 @@
           version          : 'v3.0'
         });
 
+        FB.XFBML.parse();
+        FB.CustomerChat.show(true);
+
 		$("a.chat").click(function(e) {
 			e.preventDefault();
 			FB.CustomerChat.showDialog();
 		});
+
 
       };
         (function(d, s, id){
