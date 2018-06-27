@@ -17,24 +17,6 @@
 
 <body>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '681510511976297',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-  };
-    (function(d, s, id){
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {return;}
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-
-</script>
     
 
 	<a class="banner" href="https://blog.curtsyapp.com/curtsy-buy-sell" target="_blank">
@@ -147,12 +129,27 @@
 			alert("Invalid phone");
 		});
 
-        FB.XFBML.parse() 
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '681510511976297',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v3.0'
+        });
 
 		$("a.chat").click(function(e) {
 			e.preventDefault();
 			FB.CustomerChat.showDialog();
 		});
+
+      };
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
     </script>
 
