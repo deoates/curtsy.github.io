@@ -137,6 +137,8 @@
           version          : 'v3.0'
         });
 
+        FB.XFBML.parse();
+
 		$("a.chat").click(function(e) {
 			e.preventDefault();
 			FB.CustomerChat.showDialog();
