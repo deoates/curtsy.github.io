@@ -266,12 +266,12 @@ th {
   padding: 0;
 }
 
-/* line 9, styles.scss */
+/* line 10, styles.scss */
 html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 13, styles.scss */
+/* line 14, styles.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -296,45 +296,45 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
-/* line 40, styles.scss */
+/* line 41, styles.scss */
 body {
   font-family: 'Proxima Nova Soft';
 }
 
-/* line 44, styles.scss */
-strong {
+/* line 45, styles.scss */
+strong, b {
   font-family: 'Proxima Nova Soft Sb';
 }
 
-/* line 48, styles.scss */
+/* line 49, styles.scss */
 img.banner {
   width: 338px;
   height: auto;
 }
 @media (max-width: 750px) {
-  /* line 48, styles.scss */
+  /* line 49, styles.scss */
   img.banner {
     width: 250px;
   }
 }
 @media (max-width: 665px) {
-  /* line 48, styles.scss */
+  /* line 49, styles.scss */
   img.banner {
     width: 180px;
     display: block;
   }
 }
 
-/* line 59, styles.scss */
+/* line 60, styles.scss */
 a {
   color: #0F6876;
 }
-/* line 61, styles.scss */
+/* line 62, styles.scss */
 a.light {
   color: #7C878E;
 }
 
-/* line 66, styles.scss */
+/* line 67, styles.scss */
 a.banner {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -349,100 +349,126 @@ a.banner {
   font-size: .9rem;
   text-decoration: none;
 }
-/* line 76, styles.scss */
+/* line 77, styles.scss */
 a.banner:hover {
   cursor: pointer;
   padding: 10px 0;
 }
 
-/* line 83, styles.scss */
+/* line 84, styles.scss */
 div.restrict {
   padding: 0 60px;
+  text-align: center;
 }
 @media (max-width: 845px) {
-  /* line 83, styles.scss */
+  /* line 84, styles.scss */
   div.restrict {
     padding: 0px 25px;
   }
 }
 
-/* line 90, styles.scss */
+/* line 92, styles.scss */
 div.main {
   padding: 60px 0;
 }
 @media (max-width: 845px) {
-  /* line 90, styles.scss */
+  /* line 92, styles.scss */
   div.main {
     padding: 40px 0;
   }
 }
 @media (max-width: 665px) {
-  /* line 90, styles.scss */
+  /* line 92, styles.scss */
   div.main {
     padding: 25px 0;
     text-align: center;
   }
 }
 
-/* line 101, styles.scss */
+/* line 103, styles.scss */
 img.banner, div.content {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 106, styles.scss */
+/* line 108, styles.scss */
 div.content {
   padding-left: 50px;
+  text-align: left;
 }
-/* line 108, styles.scss */
+/* line 111, styles.scss */
 div.content img.logo {
   height: 50px;
   width: auto;
 }
 @media (max-width: 665px) {
-  /* line 108, styles.scss */
+  /* line 111, styles.scss */
   div.content img.logo {
     height: 40px;
   }
 }
 @media (max-width: 845px) {
-  /* line 106, styles.scss */
+  /* line 108, styles.scss */
   div.content {
     padding-left: 30px;
   }
 }
 @media (max-width: 665px) {
-  /* line 106, styles.scss */
+  /* line 108, styles.scss */
   div.content {
     display: block;
     padding-left: 0;
     margin-top: 20px;
+    text-align: center;
   }
 }
+/* line 128, styles.scss */
+div.content.privacy {
+  text-align: left;
+}
 @media (max-width: 665px) {
-  /* line 123, styles.scss */
+  /* line 132, styles.scss */
   div.content h1 {
     font-size: 1.8rem;
     margin: 10px 0 15px;
   }
 }
 
-/* line 130, styles.scss */
+/* line 139, styles.scss */
 h1 {
   font-family: "Proxima Nova Soft";
   font-weight: normal;
   font-size: 2.2rem;
 }
 
-/* line 137, styles.scss */
+/* line 146, styles.scss */
 div.input-container {
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   border: 2px solid #252C32;
   border-radius: 4px;
   height: 44px;
   display: inline-block;
   vertical-align: top;
 }
-/* line 143, styles.scss */
+/* line 154, styles.scss */
+div.input-container:hover {
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+/* line 158, styles.scss */
+div.input-container.disabled {
+  opacity: .5;
+}
+/* line 162, styles.scss */
+div.input-container.active {
+  border-color: #1ED8C9;
+}
+/* line 167, styles.scss */
 div.input-container input[type=tel] {
   border: 0px;
   -webkit-appearance: none;
@@ -451,7 +477,7 @@ div.input-container input[type=tel] {
   height: 38px;
   background: transparent;
 }
-/* line 152, styles.scss */
+/* line 176, styles.scss */
 div.input-container img.flag {
   height: 12px;
   width: auto;
@@ -460,7 +486,7 @@ div.input-container img.flag {
   vertical-align: top;
 }
 
-/* line 161, styles.scss */
+/* line 185, styles.scss */
 a.submit {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -477,35 +503,49 @@ a.submit {
   cursor: pointer;
   padding: 10px 14px;
 }
-/* line 173, styles.scss */
+/* line 197, styles.scss */
 a.submit:hover {
   -moz-transform: scale(1.06);
   -ms-transform: scale(1.06);
   -webkit-transform: scale(1.06);
   transform: scale(1.06);
+  background: #1ED8C9;
 }
 
-/* line 178, styles.scss */
+/* line 203, styles.scss */
 img.help {
   height: 14px;
 }
 
-/* line 182, styles.scss */
+/* line 207, styles.scss */
 div.help {
   font-size: .9rem;
   margin-top: 100px;
 }
 @media (max-width: 665px) {
-  /* line 182, styles.scss */
+  /* line 207, styles.scss */
   div.help {
     margin-top: 40px;
   }
 }
-/* line 189, styles.scss */
+@media (max-width: 665px) {
+  /* line 213, styles.scss */
+  div.help a {
+    display: block;
+    margin-bottom: 6px;
+  }
+}
+/* line 220, styles.scss */
 div.help a.light {
   font-size: .8rem;
 }
-/* line 192, styles.scss */
+/* line 223, styles.scss */
 div.help div.actions-grp {
   margin-bottom: 10px;
+}
+@media (max-width: 665px) {
+  /* line 226, styles.scss */
+  div.help span.bull {
+    display: none;
+  }
 }
