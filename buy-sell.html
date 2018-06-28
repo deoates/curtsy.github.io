@@ -17,25 +17,6 @@
 
 <body>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '681510511976297',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-    
 	<div class="main">
 		<div class="restrict">
 			<div class="content privacy">
@@ -88,17 +69,45 @@ Curtsy
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
 
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-68298160-3', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90096022-6"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-90096022-6');
+	</script>
     <script type="text/javascript">
+
+    var chat = $("a.chat");
+        $("a.chat").off();
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '681510511976297',
+          autoLogAppEvents : true,
+          xfbml            : false,
+          version          : 'v3.0'
+        });
+
+        FB.XFBML.parse();
+        FB.CustomerChat.show(true);
 
 		$("a.chat").click(function(e) {
 			e.preventDefault();
 			FB.CustomerChat.showDialog();
 		});
+
+
+      };
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
 
     </script>
 
