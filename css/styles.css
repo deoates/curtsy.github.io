@@ -425,23 +425,25 @@ div.content img.logo {
 /* line 128, styles.scss */
 div.content.privacy {
   text-align: left;
+  max-width: 100%;
+  width: 640px;
 }
 @media (max-width: 665px) {
-  /* line 132, styles.scss */
+  /* line 134, styles.scss */
   div.content h1 {
     font-size: 1.8rem;
     margin: 10px 0 15px;
   }
 }
 
-/* line 139, styles.scss */
+/* line 141, styles.scss */
 h1 {
   font-family: "Proxima Nova Soft";
   font-weight: normal;
   font-size: 2.2rem;
 }
 
-/* line 146, styles.scss */
+/* line 148, styles.scss */
 div.input-container {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -453,22 +455,22 @@ div.input-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 154, styles.scss */
+/* line 156, styles.scss */
 div.input-container:hover {
   -moz-transform: scale(1.03);
   -ms-transform: scale(1.03);
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
-/* line 158, styles.scss */
+/* line 160, styles.scss */
 div.input-container.disabled {
   opacity: .5;
 }
-/* line 162, styles.scss */
+/* line 164, styles.scss */
 div.input-container.active {
   border-color: #1ED8C9;
 }
-/* line 167, styles.scss */
+/* line 169, styles.scss */
 div.input-container input[type=tel] {
   border: 0px;
   -webkit-appearance: none;
@@ -477,7 +479,7 @@ div.input-container input[type=tel] {
   height: 38px;
   background: transparent;
 }
-/* line 176, styles.scss */
+/* line 178, styles.scss */
 div.input-container img.flag {
   height: 12px;
   width: auto;
@@ -486,7 +488,7 @@ div.input-container img.flag {
   vertical-align: top;
 }
 
-/* line 185, styles.scss */
+/* line 187, styles.scss */
 a.submit {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -503,7 +505,7 @@ a.submit {
   cursor: pointer;
   padding: 10px 14px;
 }
-/* line 197, styles.scss */
+/* line 199, styles.scss */
 a.submit:hover {
   -moz-transform: scale(1.06);
   -ms-transform: scale(1.06);
@@ -512,39 +514,39 @@ a.submit:hover {
   background: #1ED8C9;
 }
 
-/* line 203, styles.scss */
+/* line 205, styles.scss */
 img.help {
   height: 14px;
 }
 
-/* line 207, styles.scss */
+/* line 209, styles.scss */
 div.help {
   font-size: .9rem;
   margin-top: 100px;
 }
 @media (max-width: 665px) {
-  /* line 207, styles.scss */
+  /* line 209, styles.scss */
   div.help {
     margin-top: 40px;
   }
 }
 @media (max-width: 665px) {
-  /* line 213, styles.scss */
+  /* line 215, styles.scss */
   div.help a {
     display: block;
     margin-bottom: 6px;
   }
 }
-/* line 220, styles.scss */
+/* line 222, styles.scss */
 div.help a.light {
   font-size: .8rem;
 }
-/* line 223, styles.scss */
+/* line 225, styles.scss */
 div.help div.actions-grp {
   margin-bottom: 10px;
 }
 @media (max-width: 665px) {
-  /* line 226, styles.scss */
+  /* line 228, styles.scss */
   div.help span.bull {
     display: none;
   }
