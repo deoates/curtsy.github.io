@@ -90,14 +90,18 @@ div.restrict {
 }
 
 div.main {
-	padding: 60px 0;
-	@media (max-width: 845px) {
-		padding: 40px 0;
-	}
-	@media (max-width: 665px) {
-		padding: 25px 0;
-		text-align: center;
-	}
+	padding: 20px 0;
+    &.landing {
+        padding: 60px 0;
+
+        @media (max-width: 845px) {
+            padding: 40px 0;
+        }
+        @media (max-width: 665px) {
+            padding: 25px 0;
+            text-align: center;
+        }
+    }
 }
 
 img.banner, div.content {
@@ -239,5 +243,99 @@ div.help {
         }
 
     }
+}
+
+ol li, p {
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: $dark;
+}
+
+
+.privacy {
+    h2 {
+      font-family: 'Proxima Nova Soft Sb';
+      font-weight: 600;
+    }
+
+    h3 {
+      font-family: 'Proxima Nova Soft Sb';
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin: 2rem 0 0;
+    }
+
+    a {
+          font-family: 'Proxima Nova Soft Md';
+          font-weight: 500;
+
+    }
+
+    p, li {
+        margin: .75rem 0;
+        font-size: 1.05rem;
+    }
+
+    li {
+        margin: .5rem;
+    }
+
+	a.btn {
+		background: $dark;
+		display: inline-block;
+		text-decoration: none;
+		padding: 10px 15px 12px;
+		font-size: 1.1rem;
+		color: #fff;
+	  	font-family: 'Proxima Nova Soft Sb';
+		font-weight: 600;
+		border-radius: 6px;
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+
+    img {
+        margin: 1rem 0 .5rem;
+		&.right-float {
+			float: right;
+			margin-left: 1rem;
+			margin-bottom: 1rem;
+		}
+    }
+    .brooke {
+        margin: 0 0 .5rem;
+        max-width: 100%;
+        height: auto;
+    }
+	.shipping-header {
+
+		ul, h1 {
+			display: inline-block;
+			vertical-align: middle;
+			@media (max-width: 675px) {
+				width: 100%;
+			}
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			position: relative;
+			margin-left: 25px;
+			margin-top: 11px;
+			@media (max-width: 675px) {
+				margin: -5px 0 20px;
+			}
+
+			li {
+				list-style: none;
+				display: inline-block;
+				margin: 0;
+				margin-right: 15px;
+			}
+		}
+	}
 }
 

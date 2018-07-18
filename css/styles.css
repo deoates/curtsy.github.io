@@ -369,52 +369,56 @@ div.restrict {
 
 /* line 92, styles.scss */
 div.main {
+  padding: 20px 0;
+}
+/* line 94, styles.scss */
+div.main.landing {
   padding: 60px 0;
 }
 @media (max-width: 845px) {
-  /* line 92, styles.scss */
-  div.main {
+  /* line 94, styles.scss */
+  div.main.landing {
     padding: 40px 0;
   }
 }
 @media (max-width: 665px) {
-  /* line 92, styles.scss */
-  div.main {
+  /* line 94, styles.scss */
+  div.main.landing {
     padding: 25px 0;
     text-align: center;
   }
 }
 
-/* line 103, styles.scss */
+/* line 107, styles.scss */
 img.banner, div.content {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 108, styles.scss */
+/* line 112, styles.scss */
 div.content {
   padding-left: 50px;
   text-align: left;
 }
-/* line 111, styles.scss */
+/* line 115, styles.scss */
 div.content img.logo {
   height: 50px;
   width: auto;
 }
 @media (max-width: 665px) {
-  /* line 111, styles.scss */
+  /* line 115, styles.scss */
   div.content img.logo {
     height: 40px;
   }
 }
 @media (max-width: 845px) {
-  /* line 108, styles.scss */
+  /* line 112, styles.scss */
   div.content {
     padding-left: 30px;
   }
 }
 @media (max-width: 665px) {
-  /* line 108, styles.scss */
+  /* line 112, styles.scss */
   div.content {
     display: block;
     padding-left: 0;
@@ -422,32 +426,32 @@ div.content img.logo {
     text-align: center;
   }
 }
-/* line 128, styles.scss */
+/* line 132, styles.scss */
 div.content.privacy {
   text-align: left;
   max-width: 100%;
   width: 640px;
 }
-/* line 134, styles.scss */
+/* line 138, styles.scss */
 div.content.center {
   text-align: center;
 }
 @media (max-width: 665px) {
-  /* line 138, styles.scss */
+  /* line 142, styles.scss */
   div.content h1 {
     font-size: 1.8rem;
     margin: 10px 0 15px;
   }
 }
 
-/* line 145, styles.scss */
+/* line 149, styles.scss */
 h1 {
   font-family: "Proxima Nova Soft";
   font-weight: normal;
   font-size: 2.2rem;
 }
 
-/* line 152, styles.scss */
+/* line 156, styles.scss */
 div.input-container {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -459,22 +463,22 @@ div.input-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 160, styles.scss */
+/* line 164, styles.scss */
 div.input-container:hover {
   -moz-transform: scale(1.03);
   -ms-transform: scale(1.03);
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
-/* line 164, styles.scss */
+/* line 168, styles.scss */
 div.input-container.disabled {
   opacity: .5;
 }
-/* line 168, styles.scss */
+/* line 172, styles.scss */
 div.input-container.active {
   border-color: #1ED8C9;
 }
-/* line 173, styles.scss */
+/* line 177, styles.scss */
 div.input-container input[type=tel] {
   border: 0px;
   -webkit-appearance: none;
@@ -483,7 +487,7 @@ div.input-container input[type=tel] {
   height: 38px;
   background: transparent;
 }
-/* line 182, styles.scss */
+/* line 186, styles.scss */
 div.input-container img.flag {
   height: 12px;
   width: auto;
@@ -492,7 +496,7 @@ div.input-container img.flag {
   vertical-align: top;
 }
 
-/* line 191, styles.scss */
+/* line 195, styles.scss */
 a.submit {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -509,7 +513,7 @@ a.submit {
   cursor: pointer;
   padding: 10px 14px;
 }
-/* line 203, styles.scss */
+/* line 207, styles.scss */
 a.submit:hover {
   -moz-transform: scale(1.06);
   -ms-transform: scale(1.06);
@@ -518,46 +522,145 @@ a.submit:hover {
   background: #1ED8C9;
 }
 
-/* line 209, styles.scss */
+/* line 213, styles.scss */
 img.help {
   height: 14px;
 }
 
-/* line 212, styles.scss */
+/* line 216, styles.scss */
 img.c404 {
   width: 251px;
   height: auto;
 }
 
-/* line 217, styles.scss */
+/* line 221, styles.scss */
 div.help {
   font-size: .9rem;
   margin-top: 100px;
 }
 @media (max-width: 665px) {
-  /* line 217, styles.scss */
+  /* line 221, styles.scss */
   div.help {
     margin-top: 40px;
   }
 }
 @media (max-width: 665px) {
-  /* line 223, styles.scss */
+  /* line 227, styles.scss */
   div.help a {
     display: block;
     margin-bottom: 6px;
   }
 }
-/* line 230, styles.scss */
+/* line 234, styles.scss */
 div.help a.light {
   font-size: .8rem;
 }
-/* line 233, styles.scss */
+/* line 237, styles.scss */
 div.help div.actions-grp {
   margin-bottom: 10px;
 }
 @media (max-width: 665px) {
-  /* line 236, styles.scss */
+  /* line 240, styles.scss */
   div.help span.bull {
     display: none;
   }
+}
+
+/* line 248, styles.scss */
+ol li, p {
+  line-height: 1.4;
+}
+
+/* line 252, styles.scss */
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #252C32;
+}
+
+/* line 258, styles.scss */
+.privacy h2 {
+  font-family: 'Proxima Nova Soft Sb';
+  font-weight: 600;
+}
+/* line 263, styles.scss */
+.privacy h3 {
+  font-family: 'Proxima Nova Soft Sb';
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 2rem 0 0;
+}
+/* line 270, styles.scss */
+.privacy a {
+  font-family: 'Proxima Nova Soft Md';
+  font-weight: 500;
+}
+/* line 276, styles.scss */
+.privacy p, .privacy li {
+  margin: .75rem 0;
+  font-size: 1.05rem;
+}
+/* line 281, styles.scss */
+.privacy li {
+  margin: .5rem;
+}
+/* line 285, styles.scss */
+.privacy a.btn {
+  background: #252C32;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px 12px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: 'Proxima Nova Soft Sb';
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+/* line 299, styles.scss */
+.privacy img {
+  margin: 1rem 0 .5rem;
+}
+/* line 301, styles.scss */
+.privacy img.right-float {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 307, styles.scss */
+.privacy .brooke {
+  margin: 0 0 .5rem;
+  max-width: 100%;
+  height: auto;
+}
+/* line 314, styles.scss */
+.privacy .shipping-header ul, .privacy .shipping-header h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 675px) {
+  /* line 314, styles.scss */
+  .privacy .shipping-header ul, .privacy .shipping-header h1 {
+    width: 100%;
+  }
+}
+/* line 322, styles.scss */
+.privacy .shipping-header ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 11px;
+}
+@media (max-width: 675px) {
+  /* line 322, styles.scss */
+  .privacy .shipping-header ul {
+    margin: -5px 0 20px;
+  }
+}
+/* line 332, styles.scss */
+.privacy .shipping-header ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  margin-right: 15px;
 }
