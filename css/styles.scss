@@ -253,6 +253,14 @@ h1, h2, h3, h4, h5, h6, p, li {
     color: $dark;
 }
 
+h5 {
+  font-family: 'Proxima Nova Soft Md';
+  font-weight: 500;
+  font-size: .95rem;
+  text-transform: uppercase;
+  letter-spacing: .75px;
+}
+
 
 .privacy {
     h2 {

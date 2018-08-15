@@ -576,33 +576,42 @@ h1, h2, h3, h4, h5, h6, p, li {
   color: #252C32;
 }
 
-/* line 258, styles.scss */
+/* line 256, styles.scss */
+h5 {
+  font-family: 'Proxima Nova Soft Md';
+  font-weight: 500;
+  font-size: .95rem;
+  text-transform: uppercase;
+  letter-spacing: .75px;
+}
+
+/* line 266, styles.scss */
 .privacy h2 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
 }
-/* line 263, styles.scss */
+/* line 271, styles.scss */
 .privacy h3 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
   font-size: 1.15rem;
   margin: 2rem 0 0;
 }
-/* line 270, styles.scss */
+/* line 278, styles.scss */
 .privacy a {
   font-family: 'Proxima Nova Soft Md';
   font-weight: 500;
 }
-/* line 276, styles.scss */
+/* line 284, styles.scss */
 .privacy p, .privacy li {
   margin: .75rem 0;
   font-size: 1.05rem;
 }
-/* line 281, styles.scss */
+/* line 289, styles.scss */
 .privacy li {
   margin: .5rem;
 }
-/* line 285, styles.scss */
+/* line 293, styles.scss */
 .privacy a.btn {
   background: #252C32;
   display: inline-block;
@@ -616,34 +625,34 @@ h1, h2, h3, h4, h5, h6, p, li {
   cursor: pointer;
   margin-bottom: 10px;
 }
-/* line 299, styles.scss */
+/* line 307, styles.scss */
 .privacy img {
   margin: 1rem 0 .5rem;
 }
-/* line 301, styles.scss */
+/* line 309, styles.scss */
 .privacy img.right-float {
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-/* line 307, styles.scss */
+/* line 315, styles.scss */
 .privacy .brooke {
   margin: 0 0 .5rem;
   max-width: 100%;
   height: auto;
 }
-/* line 314, styles.scss */
+/* line 322, styles.scss */
 .privacy .shipping-header ul, .privacy .shipping-header h1 {
   display: inline-block;
   vertical-align: middle;
 }
 @media (max-width: 675px) {
-  /* line 314, styles.scss */
+  /* line 322, styles.scss */
   .privacy .shipping-header ul, .privacy .shipping-header h1 {
     width: 100%;
   }
 }
-/* line 322, styles.scss */
+/* line 330, styles.scss */
 .privacy .shipping-header ul {
   padding: 0;
   margin: 0;
@@ -652,12 +661,12 @@ h1, h2, h3, h4, h5, h6, p, li {
   margin-top: 11px;
 }
 @media (max-width: 675px) {
-  /* line 322, styles.scss */
+  /* line 330, styles.scss */
   .privacy .shipping-header ul {
     margin: -5px 0 20px;
   }
 }
-/* line 332, styles.scss */
+/* line 340, styles.scss */
 .privacy .shipping-header ul li {
   list-style: none;
   display: inline-block;
