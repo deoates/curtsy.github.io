@@ -590,28 +590,33 @@ h5 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
 }
-/* line 271, styles.scss */
+/* line 269, styles.scss */
+.privacy h2.lt {
+  font-family: 'Proxima Nova Soft';
+  font-weight: 400;
+}
+/* line 276, styles.scss */
 .privacy h3 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
   font-size: 1.15rem;
   margin: 2rem 0 0;
 }
-/* line 278, styles.scss */
+/* line 283, styles.scss */
 .privacy a {
   font-family: 'Proxima Nova Soft Md';
   font-weight: 500;
 }
-/* line 284, styles.scss */
+/* line 289, styles.scss */
 .privacy p, .privacy li {
   margin: .75rem 0;
   font-size: 1.05rem;
 }
-/* line 289, styles.scss */
+/* line 294, styles.scss */
 .privacy li {
   margin: .5rem;
 }
-/* line 293, styles.scss */
+/* line 298, styles.scss */
 .privacy a.btn {
   background: #252C32;
   display: inline-block;
@@ -625,34 +630,34 @@ h5 {
   cursor: pointer;
   margin-bottom: 10px;
 }
-/* line 307, styles.scss */
+/* line 312, styles.scss */
 .privacy img {
   margin: 1rem 0 .5rem;
 }
-/* line 309, styles.scss */
+/* line 314, styles.scss */
 .privacy img.right-float {
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-/* line 315, styles.scss */
+/* line 320, styles.scss */
 .privacy .brooke {
   margin: 0 0 .5rem;
   max-width: 100%;
   height: auto;
 }
-/* line 322, styles.scss */
+/* line 327, styles.scss */
 .privacy .shipping-header ul, .privacy .shipping-header h1 {
   display: inline-block;
   vertical-align: middle;
 }
 @media (max-width: 675px) {
-  /* line 322, styles.scss */
+  /* line 327, styles.scss */
   .privacy .shipping-header ul, .privacy .shipping-header h1 {
     width: 100%;
   }
 }
-/* line 330, styles.scss */
+/* line 335, styles.scss */
 .privacy .shipping-header ul {
   padding: 0;
   margin: 0;
@@ -661,12 +666,12 @@ h5 {
   margin-top: 11px;
 }
 @media (max-width: 675px) {
-  /* line 330, styles.scss */
+  /* line 335, styles.scss */
   .privacy .shipping-header ul {
     margin: -5px 0 20px;
   }
 }
-/* line 340, styles.scss */
+/* line 345, styles.scss */
 .privacy .shipping-header ul li {
   list-style: none;
   display: inline-block;

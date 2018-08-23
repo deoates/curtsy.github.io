@@ -266,6 +266,11 @@ h5 {
     h2 {
       font-family: 'Proxima Nova Soft Sb';
       font-weight: 600;
+      &.lt {
+          font-family: 'Proxima Nova Soft';
+          font-weight: 400;
+
+      }
     }
 
     h3 {
