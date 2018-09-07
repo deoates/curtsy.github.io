@@ -266,12 +266,12 @@ th {
   padding: 0;
 }
 
-/* line 10, styles.scss */
+/* line 11, styles.scss */
 html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 14, styles.scss */
+/* line 15, styles.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -296,45 +296,45 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
-/* line 41, styles.scss */
+/* line 42, styles.scss */
 body {
   font-family: 'Proxima Nova Soft';
 }
 
-/* line 45, styles.scss */
+/* line 46, styles.scss */
 strong, b {
   font-family: 'Proxima Nova Soft Sb';
 }
 
-/* line 49, styles.scss */
+/* line 50, styles.scss */
 img.banner {
   width: 338px;
   height: auto;
 }
 @media (max-width: 750px) {
-  /* line 49, styles.scss */
+  /* line 50, styles.scss */
   img.banner {
     width: 250px;
   }
 }
 @media (max-width: 665px) {
-  /* line 49, styles.scss */
+  /* line 50, styles.scss */
   img.banner {
     width: 180px;
     display: block;
   }
 }
 
-/* line 60, styles.scss */
+/* line 61, styles.scss */
 a {
   color: #0F6876;
 }
-/* line 62, styles.scss */
+/* line 63, styles.scss */
 a.light {
   color: #7C878E;
 }
 
-/* line 67, styles.scss */
+/* line 68, styles.scss */
 a.banner {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -349,76 +349,76 @@ a.banner {
   font-size: .9rem;
   text-decoration: none;
 }
-/* line 77, styles.scss */
+/* line 78, styles.scss */
 a.banner:hover {
   cursor: pointer;
   padding: 10px 0;
 }
 
-/* line 84, styles.scss */
+/* line 85, styles.scss */
 div.restrict {
   padding: 0 60px;
   text-align: center;
 }
 @media (max-width: 845px) {
-  /* line 84, styles.scss */
+  /* line 85, styles.scss */
   div.restrict {
     padding: 0px 25px;
   }
 }
 
-/* line 92, styles.scss */
+/* line 93, styles.scss */
 div.main {
   padding: 20px 0;
 }
-/* line 94, styles.scss */
+/* line 95, styles.scss */
 div.main.landing {
   padding: 60px 0;
 }
 @media (max-width: 845px) {
-  /* line 94, styles.scss */
+  /* line 95, styles.scss */
   div.main.landing {
     padding: 40px 0;
   }
 }
 @media (max-width: 665px) {
-  /* line 94, styles.scss */
+  /* line 95, styles.scss */
   div.main.landing {
     padding: 25px 0;
     text-align: center;
   }
 }
 
-/* line 107, styles.scss */
+/* line 108, styles.scss */
 img.banner, div.content {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 112, styles.scss */
+/* line 113, styles.scss */
 div.content {
   padding-left: 50px;
   text-align: left;
 }
-/* line 115, styles.scss */
+/* line 116, styles.scss */
 div.content img.logo {
   height: 50px;
   width: auto;
 }
 @media (max-width: 665px) {
-  /* line 115, styles.scss */
+  /* line 116, styles.scss */
   div.content img.logo {
     height: 40px;
   }
 }
 @media (max-width: 845px) {
-  /* line 112, styles.scss */
+  /* line 113, styles.scss */
   div.content {
     padding-left: 30px;
   }
 }
 @media (max-width: 665px) {
-  /* line 112, styles.scss */
+  /* line 113, styles.scss */
   div.content {
     display: block;
     padding-left: 0;
@@ -426,32 +426,32 @@ div.content img.logo {
     text-align: center;
   }
 }
-/* line 132, styles.scss */
+/* line 133, styles.scss */
 div.content.privacy {
   text-align: left;
   max-width: 100%;
   width: 640px;
 }
-/* line 138, styles.scss */
+/* line 139, styles.scss */
 div.content.center {
   text-align: center;
 }
 @media (max-width: 665px) {
-  /* line 142, styles.scss */
+  /* line 143, styles.scss */
   div.content h1 {
     font-size: 1.8rem;
     margin: 10px 0 15px;
   }
 }
 
-/* line 149, styles.scss */
+/* line 150, styles.scss */
 h1 {
   font-family: "Proxima Nova Soft";
   font-weight: normal;
   font-size: 2.2rem;
 }
 
-/* line 156, styles.scss */
+/* line 157, styles.scss */
 div.input-container {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -463,22 +463,22 @@ div.input-container {
   display: inline-block;
   vertical-align: top;
 }
-/* line 164, styles.scss */
+/* line 165, styles.scss */
 div.input-container:hover {
   -moz-transform: scale(1.03);
   -ms-transform: scale(1.03);
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
-/* line 168, styles.scss */
+/* line 169, styles.scss */
 div.input-container.disabled {
   opacity: .5;
 }
-/* line 172, styles.scss */
+/* line 173, styles.scss */
 div.input-container.active {
   border-color: #1ED8C9;
 }
-/* line 177, styles.scss */
+/* line 178, styles.scss */
 div.input-container input[type=tel] {
   border: 0px;
   -webkit-appearance: none;
@@ -487,7 +487,7 @@ div.input-container input[type=tel] {
   height: 38px;
   background: transparent;
 }
-/* line 186, styles.scss */
+/* line 187, styles.scss */
 div.input-container img.flag {
   height: 12px;
   width: auto;
@@ -496,7 +496,7 @@ div.input-container img.flag {
   vertical-align: top;
 }
 
-/* line 195, styles.scss */
+/* line 196, styles.scss */
 a.submit {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -513,7 +513,7 @@ a.submit {
   cursor: pointer;
   padding: 10px 14px;
 }
-/* line 207, styles.scss */
+/* line 208, styles.scss */
 a.submit:hover {
   -moz-transform: scale(1.06);
   -ms-transform: scale(1.06);
@@ -522,61 +522,61 @@ a.submit:hover {
   background: #1ED8C9;
 }
 
-/* line 213, styles.scss */
+/* line 214, styles.scss */
 img.help {
   height: 14px;
 }
 
-/* line 216, styles.scss */
+/* line 217, styles.scss */
 img.c404 {
   width: 251px;
   height: auto;
 }
 
-/* line 221, styles.scss */
+/* line 222, styles.scss */
 div.help {
   font-size: .9rem;
   margin-top: 100px;
 }
 @media (max-width: 665px) {
-  /* line 221, styles.scss */
+  /* line 222, styles.scss */
   div.help {
     margin-top: 40px;
   }
 }
 @media (max-width: 665px) {
-  /* line 227, styles.scss */
+  /* line 228, styles.scss */
   div.help a {
     display: block;
     margin-bottom: 6px;
   }
 }
-/* line 234, styles.scss */
+/* line 235, styles.scss */
 div.help a.light {
   font-size: .8rem;
 }
-/* line 237, styles.scss */
+/* line 238, styles.scss */
 div.help div.actions-grp {
   margin-bottom: 10px;
 }
 @media (max-width: 665px) {
-  /* line 240, styles.scss */
+  /* line 241, styles.scss */
   div.help span.bull {
     display: none;
   }
 }
 
-/* line 248, styles.scss */
+/* line 249, styles.scss */
 ol li, p {
   line-height: 1.4;
 }
 
-/* line 252, styles.scss */
+/* line 253, styles.scss */
 h1, h2, h3, h4, h5, h6, p, li {
   color: #252C32;
 }
 
-/* line 256, styles.scss */
+/* line 257, styles.scss */
 h5 {
   font-family: 'Proxima Nova Soft Md';
   font-weight: 500;
@@ -585,38 +585,38 @@ h5 {
   letter-spacing: .75px;
 }
 
-/* line 266, styles.scss */
+/* line 267, styles.scss */
 .privacy h2 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
 }
-/* line 269, styles.scss */
+/* line 270, styles.scss */
 .privacy h2.lt {
   font-family: 'Proxima Nova Soft';
   font-weight: 400;
 }
-/* line 276, styles.scss */
+/* line 277, styles.scss */
 .privacy h3 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
   font-size: 1.15rem;
   margin: 2rem 0 0;
 }
-/* line 283, styles.scss */
+/* line 284, styles.scss */
 .privacy a {
   font-family: 'Proxima Nova Soft Md';
   font-weight: 500;
 }
-/* line 289, styles.scss */
+/* line 290, styles.scss */
 .privacy p, .privacy li {
   margin: .75rem 0;
   font-size: 1.05rem;
 }
-/* line 294, styles.scss */
+/* line 295, styles.scss */
 .privacy li {
   margin: .5rem;
 }
-/* line 298, styles.scss */
+/* line 299, styles.scss */
 .privacy a.btn {
   background: #252C32;
   display: inline-block;
@@ -630,34 +630,34 @@ h5 {
   cursor: pointer;
   margin-bottom: 10px;
 }
-/* line 312, styles.scss */
+/* line 313, styles.scss */
 .privacy img {
   margin: 1rem 0 .5rem;
 }
-/* line 314, styles.scss */
+/* line 315, styles.scss */
 .privacy img.right-float {
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-/* line 320, styles.scss */
+/* line 321, styles.scss */
 .privacy .brooke {
   margin: 0 0 .5rem;
   max-width: 100%;
   height: auto;
 }
-/* line 327, styles.scss */
+/* line 328, styles.scss */
 .privacy .shipping-header ul, .privacy .shipping-header h1 {
   display: inline-block;
   vertical-align: middle;
 }
 @media (max-width: 675px) {
-  /* line 327, styles.scss */
+  /* line 328, styles.scss */
   .privacy .shipping-header ul, .privacy .shipping-header h1 {
     width: 100%;
   }
 }
-/* line 335, styles.scss */
+/* line 336, styles.scss */
 .privacy .shipping-header ul {
   padding: 0;
   margin: 0;
@@ -666,15 +666,51 @@ h5 {
   margin-top: 11px;
 }
 @media (max-width: 675px) {
-  /* line 335, styles.scss */
+  /* line 336, styles.scss */
   .privacy .shipping-header ul {
     margin: -5px 0 20px;
   }
 }
-/* line 345, styles.scss */
+/* line 346, styles.scss */
 .privacy .shipping-header ul li {
   list-style: none;
   display: inline-block;
   margin: 0;
   margin-right: 15px;
+}
+
+/* line 356, styles.scss */
+ul.faq-nav {
+  margin: 0;
+  padding: 0;
+}
+/* line 359, styles.scss */
+ul.faq-nav li {
+  list-style: none;
+  display: block;
+  margin: 0 0 10px;
+  border: 2px solid #D6DCDF;
+  border-radius: 7px;
+}
+/* line 365, styles.scss */
+ul.faq-nav li a {
+  padding: 12px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-size: 1.15rem;
+  position: relative;
+}
+/* line 374, styles.scss */
+ul.faq-nav li a:after {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 18px;
+  background: url("../img/right-arr.png");
+  background-size: 100% 100%;
+  position: absolute;
+  right: 12px;
+  top: 15px;
 }
