@@ -2,8 +2,8 @@
 @import "normalize";
 
 
-$dark: #252C32;
-$link: #0F6876;
+$dark: #171C20;
+$link: #0C5A67;
 $light: #7C878E;
 $teal: #1ED8C9;
 $border: #D6DCDF;
@@ -150,7 +150,7 @@ div.content {
 h1 {
 	font-family: "Proxima Nova Soft";
 	font-weight: normal;
-	font-size: 2.2rem;
+    letter-spacing: -.05rem;
 }
 
 
@@ -277,7 +277,7 @@ h5 {
     h3 {
       font-family: 'Proxima Nova Soft Sb';
       font-weight: 600;
-      font-size: 1.15rem;
+      font-size: 1rem;
       margin: 2rem 0 0;
     }
 
@@ -289,7 +289,7 @@ h5 {
 
     p, li {
         margin: .75rem 0;
-        font-size: 1.05rem;
+        font-size: 1rem;
     }
 
     li {
@@ -301,7 +301,7 @@ h5 {
 		display: inline-block;
 		text-decoration: none;
 		padding: 10px 15px 12px;
-		font-size: 1.1rem;
+		font-size: 1rem;
 		color: #fff;
 	  	font-family: 'Proxima Nova Soft Sb';
 		font-weight: 600;
@@ -324,13 +324,13 @@ h5 {
         height: auto;
     }
 	.shipping-header {
+        border-bottom: 1px solid $border;
+        padding: 12px 0;
 
 		ul, h1 {
 			display: inline-block;
 			vertical-align: middle;
-			@media (max-width: 675px) {
-				width: 100%;
-			}
+            margin: 0;
 		}
 
 		ul {
@@ -338,10 +338,11 @@ h5 {
 			margin: 0;
 			position: relative;
 			margin-left: 25px;
-			margin-top: 11px;
-			@media (max-width: 675px) {
-				margin: -5px 0 20px;
-			}
+			margin-top: 15px;
+            float: right;
+            @media (max-width: 675px) {
+                margin-top: 10px;
+            }
 
 			li {
 				list-style: none;

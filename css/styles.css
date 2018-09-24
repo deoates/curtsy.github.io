@@ -327,7 +327,7 @@ img.banner {
 
 /* line 61, styles.scss */
 a {
-  color: #0F6876;
+  color: #0C5A67;
 }
 /* line 63, styles.scss */
 a.light {
@@ -342,7 +342,7 @@ a.banner {
   transition: all 0.2s;
   width: 100%;
   display: block;
-  background: #252C32;
+  background: #171C20;
   font-family: 'Proxima Nova Soft Sb';
   color: #fff;
   padding: 7px 0;
@@ -448,7 +448,7 @@ div.content.center {
 h1 {
   font-family: "Proxima Nova Soft";
   font-weight: normal;
-  font-size: 2.2rem;
+  letter-spacing: -.05rem;
 }
 
 /* line 157, styles.scss */
@@ -457,7 +457,7 @@ div.input-container {
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  border: 2px solid #252C32;
+  border: 2px solid #171C20;
   border-radius: 4px;
   height: 44px;
   display: inline-block;
@@ -508,7 +508,7 @@ a.submit {
   display: inline-block;
   font-family: 'Proxima Nova Soft Sb';
   margin-left: 4px;
-  background: #252C32;
+  background: #171C20;
   color: #fff;
   cursor: pointer;
   padding: 10px 14px;
@@ -573,7 +573,7 @@ ol li, p {
 
 /* line 253, styles.scss */
 h1, h2, h3, h4, h5, h6, p, li {
-  color: #252C32;
+  color: #171C20;
 }
 
 /* line 257, styles.scss */
@@ -599,7 +599,7 @@ h5 {
 .privacy h3 {
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
-  font-size: 1.15rem;
+  font-size: 1rem;
   margin: 2rem 0 0;
 }
 /* line 284, styles.scss */
@@ -610,7 +610,7 @@ h5 {
 /* line 290, styles.scss */
 .privacy p, .privacy li {
   margin: .75rem 0;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 /* line 295, styles.scss */
 .privacy li {
@@ -618,11 +618,11 @@ h5 {
 }
 /* line 299, styles.scss */
 .privacy a.btn {
-  background: #252C32;
+  background: #171C20;
   display: inline-block;
   text-decoration: none;
   padding: 10px 15px 12px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #fff;
   font-family: 'Proxima Nova Soft Sb';
   font-weight: 600;
@@ -646,16 +646,16 @@ h5 {
   max-width: 100%;
   height: auto;
 }
-/* line 328, styles.scss */
+/* line 326, styles.scss */
+.privacy .shipping-header {
+  border-bottom: 1px solid #D6DCDF;
+  padding: 12px 0;
+}
+/* line 330, styles.scss */
 .privacy .shipping-header ul, .privacy .shipping-header h1 {
   display: inline-block;
   vertical-align: middle;
-}
-@media (max-width: 675px) {
-  /* line 328, styles.scss */
-  .privacy .shipping-header ul, .privacy .shipping-header h1 {
-    width: 100%;
-  }
+  margin: 0;
 }
 /* line 336, styles.scss */
 .privacy .shipping-header ul {
@@ -663,15 +663,16 @@ h5 {
   margin: 0;
   position: relative;
   margin-left: 25px;
-  margin-top: 11px;
+  margin-top: 15px;
+  float: right;
 }
 @media (max-width: 675px) {
   /* line 336, styles.scss */
   .privacy .shipping-header ul {
-    margin: -5px 0 20px;
+    margin-top: 10px;
   }
 }
-/* line 346, styles.scss */
+/* line 347, styles.scss */
 .privacy .shipping-header ul li {
   list-style: none;
   display: inline-block;
@@ -679,12 +680,12 @@ h5 {
   margin-right: 15px;
 }
 
-/* line 356, styles.scss */
+/* line 357, styles.scss */
 ul.faq-nav {
   margin: 0;
   padding: 0;
 }
-/* line 359, styles.scss */
+/* line 360, styles.scss */
 ul.faq-nav li {
   list-style: none;
   display: block;
@@ -692,7 +693,7 @@ ul.faq-nav li {
   border: 2px solid #D6DCDF;
   border-radius: 7px;
 }
-/* line 365, styles.scss */
+/* line 366, styles.scss */
 ul.faq-nav li a {
   padding: 12px;
   display: block;
@@ -702,7 +703,7 @@ ul.faq-nav li a {
   font-size: 1.15rem;
   position: relative;
 }
-/* line 374, styles.scss */
+/* line 375, styles.scss */
 ul.faq-nav li a:after {
   display: block;
   content: "";
