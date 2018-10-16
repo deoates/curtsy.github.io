@@ -386,3 +386,74 @@ ul.faq-nav {
         }
     }
 }
+ul.onboard-slide {
+    display: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    li {
+        list-style: none;
+        font-family: 'Proxima Nova Soft Md';
+    }
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+    border-bottom: 1px solid #C8D5D6;
+}
+
+ul.onboarding {
+    margin-top: 15px;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px solid #C8D5D6;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 10px 12px;
+        width: 85px;
+        margin: 0;
+        position: relative;
+        img {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #252C32;
+        }
+
+        span {
+            font-family: 'Proxima Nova Soft';
+            font-weight: 400;
+            text-transform: uppercase;
+            display: block;
+            font-size: .9rem;
+            color: lighten($dark, 15%);
+
+        }
+
+        &.active {
+            &:after {
+                display: block;
+            }
+            span {
+                font-family: 'Proxima Nova Soft Sb';
+                color: $dark;
+            }
+        }
+
+        &:after {
+            position: absolute;
+            display: none;
+            top: 100%;
+            margin-top: -11px;
+            left: 50%;
+            margin-left: -8px;
+            width: 16px;
+            height: 14px;
+            background: url("../img/up-arr.png");
+            background-size: 100% 100%;
+            content: '';
+        }
+    }
+}
